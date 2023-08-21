@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: argo-alert-container
-        image: silvesterp/argocd-debug:latest
+        image:  silvesterp/argo-alert-new:latest
         ports:
         - containerPort: 8080  # This is a placeholder; adjust if your application listens on a different port.
