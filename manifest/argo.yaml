@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: argo-alert-container
-        image:  silvesterp/argo-alert-new:latest
+        image:  silvesterp/argo-alert-mod:latest
         ports:
         - containerPort: 8080  # This is a placeholder; adjust if your application listens on a different port.
